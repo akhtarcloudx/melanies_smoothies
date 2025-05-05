@@ -28,6 +28,7 @@ if ingredient_list:
   ingredient_string = ''
   for fruit_chosen in ingredient_list:
     ingredient_string += fruit_chosen + ' '
+    st.subheader(fruit_chosen+ 'Nurition Information')
     #st.write(ingredient_string)
 
     #my_insert_stmt = """insert into smoothies.public.orders(ingredients, name_on_order)
